@@ -12,17 +12,24 @@ HOW TO USE:
 
 0. Convert solar to lunar. 
 1. Convert lunar to solar 
+
 Select (0/1): 0
+
 Enter date in dd/mm/yyyy format: 04/11/2017
+
 Thứ 7 - 16/9/2017 AL; ngày: Ất Mùi - tháng: Bính Tuất - năm: Đinh Dậu
 
 &gt; python LunarSolar.py
 
 0. Convert solar to lunar. 
 1. Convert lunar to solar 
+
 Select (0/1): 1
+
 Enter date in dd/mm/yyyy format: 16/9/2017
+
 Is leap month ? (0/1) - default 0: 0
+
 Date 16/9/2017 in lunar calendar is Sat 4/11/2017 in solar calendar
 
 # II. Function in file
