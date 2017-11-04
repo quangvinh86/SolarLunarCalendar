@@ -305,12 +305,12 @@ def day_in_week(solar_dd, solar_mm, solar_yy, viet_language=1):
     julian_day = julian_day_from_date(solar_dd, solar_mm, solar_yy)
     date_index = julian_day % 7
     if viet_language:
-        day_in_week = ["Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5",
-                       "Thứ 6", "Thứ 7", "Chủ nhật"]
+        _day_in_week = ["Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5",
+                        "Thứ 6", "Thứ 7", "Chủ nhật"]
     else:
-        day_in_week = ["Mon", "Tue", "Wed", "Thu",
-                       "Fri", "Sat", "Sun"]
-    return day_in_week[date_index]
+        _day_in_week = ["Mon", "Tue", "Wed", "Thu",
+                        "Fri", "Sat", "Sun"]
+    return _day_in_week[date_index]
 
 
 def zodiac_year(year):
@@ -361,7 +361,6 @@ def solar_to_lunar_string(solar_dd, solar_mm, solar_yy, time_zone=7):
     _zodiac_year = zodiac_year(solar_yy)
     _zodiac_month = zodiac_month(lunar_day[1], lunar_day[3])
     _zodiac_day = zodiac_day(solar_dd, solar_mm, solar_yy)
-    print(lunar_day)
     if lunar_day[3]:
         return "{} - {}/{}/{} AL {}; ngày :{} tháng: {} năm: {}".\
                 format(_day_in_week, lunar_day[0], lunar_day[1],

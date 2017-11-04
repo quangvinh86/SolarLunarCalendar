@@ -14,7 +14,6 @@ python LunarSolar.py
 1. Convert lunar to solar 
 Select (0/1): 0
 Enter date in dd/mm/yyyy format: 04/11/2017
-[16, 9, 2017, 0]
 Thứ 7 - 16/9/2017 AL; ngày: Ất Mùi - tháng: Bính Tuất - năm: Đinh Dậu
 
 python LunarSolar.py
