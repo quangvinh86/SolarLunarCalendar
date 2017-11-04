@@ -53,7 +53,7 @@ Date 16/9/2017 in lunar calendar is Sat 4/11/2017 in solar calendar
     '''
 
 
-##def zodiac_month(month, year):
+## def zodiac_month(month, year):
   
   '''Month in CAN-CHI name
     '  Params: month of lunar calendar
@@ -61,7 +61,7 @@ Date 16/9/2017 in lunar calendar is Sat 4/11/2017 in solar calendar
     '  rtype: str
     '''
 
-##def zodiac_day(solar_dd, solar_mm, solar_yy):
+## def zodiac_day(solar_dd, solar_mm, solar_yy):
   
   '''Find day in CAN-CHI name
     '  Params: day
@@ -70,11 +70,11 @@ Date 16/9/2017 in lunar calendar is Sat 4/11/2017 in solar calendar
     '  rtype: str
     '''
 
-##def zodiac_year(year):
+## def zodiac_year(year):
   
   '''Find year in CAN-CHI (zodiac) name'''
 
-##def lunar_leap(yy):
+## def lunar_leap(yy):
   
   '''find leap year
     params: yy - year
@@ -82,7 +82,7 @@ Date 16/9/2017 in lunar calendar is Sat 4/11/2017 in solar calendar
            0 - not leap year
     '''
 
-##def day_in_week(solar_dd, solar_mm, solar_yy, viet_language=1):
+## def day_in_week(solar_dd, solar_mm, solar_yy, viet_language=1):
   
   '''Get day in week by algrorithm: get julian day, get mod of julian day and 7
     'Params: 3 elements and 1 default element
