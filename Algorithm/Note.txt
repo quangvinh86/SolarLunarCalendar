@@ -1,0 +1,8 @@
+Lunar date/time: Tính ngày âm lịch cho ngày tháng và địa điểm đã chọn. Hiển thị thông tin chi tiết về ngày giờ âm lịch. Bạn có thể chọn một trong những địa điểm cho sẵn hoặc chọn "Location" là "(Custom)" và điền vĩ độ vào ô "Latitude" và kinh độ vào ô "Longitude". Chức năng này có tính chất thử nghiệm: ngày tháng âm lịch được tính phụ thuộc vào cả kinh và vĩ độ, do đó âm lịch cho một nơi ở bán cầu Nam sẽ chênh lệch 6 tháng so với một nơi cùng kinh độ nhưng ở bán cầu Bắc.
+Show Solar Terms: Tính các các thời điểm KHÍ (Trung khí và Tiết khí) cho năm đã chọn.
+Show New Moons: Tính các các thời điểm Sóc cho năm đã chọn. Ngày chứa điểm Sóc là ngày đầu tháng âm lịch.
+New Year's (Official): Tính ngày Tết theo lịch pháp định (lịch dùng chính thức tại Việt Nam) cho 100 năm kể từ năm đã chọn.
+New Year's (Astronomical): Tính ngày Tết theo lịch thiên văn cho 100 năm kể từ năm đã chọn. Cần chọn múi giờ để tính lịch thiên văn bằng cách chọn một địa điểm cho sẵn hoặc điền kinh độ vào ô "Longitude".
+Leap Months (Official): Tính tất cả các tháng nhuận theo lịch pháp định (lịch dùng chính thức tại Việt Nam) cho 100 năm kể từ năm đã chọn.
+Leap Months (Astronomical): Tính tất cả các tháng nhuận theo lịch thiên văn cho 100 năm kể từ năm đã chọn. Cần chọn múi giờ để tính lịch thiên văn bằng cách chọn một địa điểm cho sẵn hoặc điền kinh độ vào ô "Longitude".
+Sun Rise/Transit/Set: Tính thời điểm mặt trời mọc/lặn và giờ chính ngọ cho tháng và địa điểm đã chọn. Bạn có thể chọn một trong những địa điểm cho sẵn hoặc chọn "Location" là "(Custom)" và điền vĩ độ vào ô "Latitude" và kinh độ vào ô "Longitude".
